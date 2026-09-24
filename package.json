@@ -1,0 +1,19 @@
+{
+  "name": "juego-orden",
+  "version": "1.0.0",
+  "description": "Juego 2D didáctico, casero y 100% local, para ejercitar con un niño la idea:",
+  "main": "index.js",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
