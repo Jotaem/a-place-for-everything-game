@@ -1,19 +1,5 @@
-// Escena de prueba de la Fase 0: solo muestra un color de fondo.
-// TODO: reemplazar por MenuScene / NivelScene / ResumenScene en Fase 1.
-function createEmptyScene() {
-  return {
-    // Clave de la escena en inglés, texto visible en español.
-    key: 'BootScene',
-    create: function () {
-      // Texto de verificación: si se ve, Phaser está corriendo.
-      this.add.text(480, 270, 'Hola mundo Phaser', {
-        fontSize: '48px',
-        color: '#ffffff'
-      }).setOrigin(0.5);
-    }
-  };
-}
-
+// Arranque de la Fase 1: la escena jugable vive en src/scenes/NivelScene.js.
+// TODO: agregar MenuScene y ResumenScene en la Fase 2 (tareas 2.4 y 4.2).
 // Configuración principal del juego (960x540 según ROADMAP Fase 0).
 const config = {
   type: Phaser.AUTO,
@@ -21,7 +7,7 @@ const config = {
   height: 540,
   parent: 'gameContainer',
   backgroundColor: '#2d2d44',
-  scene: [createEmptyScene()]
+  scene: [NivelScene]
 };
 
 // Arranque del juego.
