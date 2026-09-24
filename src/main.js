@@ -1,5 +1,5 @@
-// Arranque de la Fase 1: la escena jugable vive en src/scenes/NivelScene.js.
-// TODO: agregar MenuScene y ResumenScene en la Fase 2 (tareas 2.4 y 4.2).
+// Arranque de la Fase 2: el menú va primero y abre cada nivel (tarea 2.4).
+// TODO: agregar ResumenScene en la Fase 4 (tarea 4.2).
 // Configuración principal del juego (960x540 según ROADMAP Fase 0).
 const config = {
   type: Phaser.AUTO,
@@ -7,7 +7,7 @@ const config = {
   height: 540,
   parent: 'gameContainer',
   backgroundColor: '#2d2d44',
-  scene: [NivelScene]
+  scene: [MenuScene, NivelScene]
 };
 
 // Arranque del juego.
