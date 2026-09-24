@@ -1,0 +1,79 @@
+{
+  "levels": [
+    {
+      "id": "bedroom",
+      "name": "La pieza",
+      "order": 1,
+      "difficulty": 1,
+      "zones": [
+        { "key": "closet", "label": "Clóset" },
+        { "key": "toyBox", "label": "Caja de juguetes" }
+      ],
+      "objects": [
+        { "label": "Camiseta", "correctZone": "closet", "color": "#FF6B6B" },
+        { "label": "Pijama", "correctZone": "closet", "color": "#F15BB5" },
+        { "label": "Zapatos", "correctZone": "closet", "color": "#00BBF9" },
+        { "label": "Peluche", "correctZone": "toyBox", "color": "#FFD93D" },
+        { "label": "Gorra", "correctZone": "closet", "color": "#9B5DE5" },
+        { "label": "Pelota", "correctZone": "toyBox", "color": "#6BCB77" }
+      ]
+    },
+    {
+      "id": "desk",
+      "name": "El escritorio",
+      "order": 2,
+      "difficulty": 2,
+      "zones": [
+        { "key": "pencilBox", "label": "Cartuchera" },
+        { "key": "bookShelf", "label": "Librero" },
+        { "key": "drawer", "label": "Cajón" }
+      ],
+      "objects": [
+        { "label": "Lápiz", "correctZone": "pencilBox", "color": "#FF6B6B" },
+        { "label": "Tijeras", "correctZone": "pencilBox", "color": "#F15BB5" },
+        { "label": "Libro", "correctZone": "bookShelf", "color": "#00BBF9" },
+        { "label": "Cuaderno", "correctZone": "drawer", "color": "#FFD93D" },
+        { "label": "Goma", "correctZone": "pencilBox", "color": "#9B5DE5" },
+        { "label": "Regla", "correctZone": "drawer", "color": "#6BCB77" }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "La cocina",
+      "order": 3,
+      "difficulty": 3,
+      "zones": [
+        { "key": "cupboard", "label": "Alacena" },
+        { "key": "fruitBowl", "label": "Frutero" },
+        { "key": "cutlery", "label": "Cajón de cubiertos" }
+      ],
+      "objects": [
+        { "label": "Plato", "correctZone": "cupboard", "color": "#FF6B6B" },
+        { "label": "Vaso", "correctZone": "cupboard", "color": "#00BBF9" },
+        { "label": "Cuchara", "correctZone": "cutlery", "color": "#9B5DE5" },
+        { "label": "Manzana", "correctZone": "fruitBowl", "color": "#6BCB77" },
+        { "label": "Tenedor", "correctZone": "cutlery", "color": "#F15BB5" },
+        { "label": "Plátano", "correctZone": "fruitBowl", "color": "#FFD93D" }
+      ]
+    },
+    {
+      "id": "bookshelf",
+      "name": "El librero",
+      "order": 4,
+      "difficulty": 4,
+      "zones": [
+        { "key": "shelf", "label": "Librero" },
+        { "key": "fileBox", "label": "Archivador" }
+      ],
+      "objects": [
+        { "label": "Libro de cuentos", "correctZone": "shelf", "color": "#FF6B6B" },
+        { "label": "Revista", "correctZone": "shelf", "color": "#00BBF9" },
+        { "label": "Carpeta", "correctZone": "fileBox", "color": "#FFD93D" },
+        { "label": "Historieta", "correctZone": "shelf", "color": "#9B5DE5" },
+        { "label": "Diccionario", "correctZone": "shelf", "color": "#6BCB77" },
+        { "label": "Sobre de cartas", "correctZone": "fileBox", "color": "#F15BB5" },
+        { "label": "Pelota", "correctZone": null, "color": "#FF9F1C" }
+      ]
+    }
+  ]
+}
